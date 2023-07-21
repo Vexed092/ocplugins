@@ -22,7 +22,7 @@ public class BwansContext extends CoreContext
 	public TileObject getNearestRange()
 	{
 		return objectHelper.getNearest(
-			obj -> obj.getName().contains("Range") || obj.getName().contains("Fire") || obj.getName().contains("Clay oven")
+			obj -> obj.getName().contains("Range") || obj.getName().contains("Clay oven")
 		);
 	}
 
