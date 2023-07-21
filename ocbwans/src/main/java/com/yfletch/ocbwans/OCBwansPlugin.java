@@ -72,7 +72,7 @@ public class OCBwansPlugin extends RunnerPlugin<BwansContext>
 
 		action().name("Use karambwan on fire")
 			.when(c -> true)
-			.then(c -> lastItem("Raw karambwan").useOn(object("Range", "Fire")));
+			.then(c -> lastItem("Raw karambwan").useOn(object("Range", "Fire", "Clay oven")));
 	}
 
 	@Provides
