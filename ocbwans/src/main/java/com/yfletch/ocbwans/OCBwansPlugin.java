@@ -42,7 +42,7 @@ public class OCBwansPlugin extends RunnerPlugin<BwansContext>
 		requirements()
 			.mustHave("Raw karambwan")
 			.mustBeNear(() -> entity(containing("bank", "benedict")), "any bank")
-			.mustBeNear(() -> object("Range", "Fire"), "any range/fire");
+			.mustBeNear(() -> object("Range", "Fire", "Clay oven"), "any range/fire");
 
 		action()
 			.when(c -> !Inventory.contains("Raw karambwan"))
